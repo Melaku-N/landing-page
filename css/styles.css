@@ -113,3 +113,32 @@
   height: 170px;
   margin-bottom: 5px;
 }
+
+.section-three {
+  background-color: #e5e7eb;
+}
+
+.section-three-contents {
+  width: 1024px;
+  height: 430px;
+  margin: 0 auto;
+  padding: 0 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 350;
+  color: #1f2937;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: 32px;
+}
