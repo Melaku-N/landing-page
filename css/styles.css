@@ -177,3 +177,13 @@
   border-radius: 8px;
   border: 2px solid #fff;
 }
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 18px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
