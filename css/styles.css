@@ -7,19 +7,35 @@
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-.section-one {
-  background-color: #1f2937;
-  color: #f9faf8;
-  padding-top: 24px;
-}
-
-.section-one-contents {
+.content {
   width: 1024px;
   margin: 0 auto;
 }
 
-.header {
+.flex-item {
   display: flex;
+}
+
+.fnt-sz {
+  font-size: 18px;
+}
+
+.clr {
+  color: #f9faf8;
+}
+
+.btn {
+  background-color: #3882f6;
+  padding: 6px 32px;
+  border-radius: 8px;
+}
+
+.section-one {
+  background-color: #1f2937;
+  padding-top: 24px;
+}
+
+.header {
   justify-content: space-between;
   align-items: center;
 }
@@ -31,18 +47,15 @@
 
 .links {
   list-style-type: none;
-  display: flex;
   gap: 24px;
 }
 
 .links a {
   text-decoration: none;
   color: #e5e7eb;
-  font-size: 18px;
 }
 
 .header-contents {
-  display: flex;
   gap: 48px;
   padding: 128px 0;
 }
@@ -58,31 +71,22 @@
 
 .hero p {
   color: #e5e7eb;
-  font-size: 18px;
   margin-bottom: 10px;
 }
 
 .hero button {
-  background-color: #3882f6;
-  color: #f9faf8;
-  font-size: 18px;
   font-weight: bold;
-  padding: 6px 32px;
-  border-radius: 8px;
   border: 0;
 }
 
 .image-placeholder {
   background-color: grey;
   flex: auto;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .section-two {
-  width: 1024px;
-  margin: 0 auto;
   text-align: center;
   padding-bottom: 120px;
 }
@@ -95,7 +99,6 @@
 }
 
 .illustrations {
-  display: flex;
   gap: 48px;
   justify-content: center;
 }
@@ -103,7 +106,6 @@
 .illustration-contents {
   width: 170px;
   color: rgb(105, 105, 105);
-  font-size: 18px;
   font-weight: 400;
 }
 
@@ -119,11 +121,8 @@
 }
 
 .section-three-contents {
-  width: 1024px;
   height: 430px;
-  margin: 0 auto;
   padding: 0 120px;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -144,8 +143,6 @@
 }
 
 .section-four {
-  width: 1024px;
-  margin: 0 auto;
   padding: 100px 0;
 }
 
@@ -153,37 +150,26 @@
   background-color: #3882f6;
   padding: 50px 0;
   border-radius: 8px;
-  display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .call-to-action-head {
   font-size: 24px;
-  color: #f9faf8;
   font-weight: 450;
 }
 
 .call-to-action-texts p {
-  font-size: 18px;
   color: #e5e7eb;
 }
 
 .call-to-action button {
-  background-color: #3882f6;
-  color: #f9faf8;
-  font-size: 18px;
-  padding: 6px 32px;
-  border-radius: 8px;
   border: 2px solid #fff;
 }
 
 .footer {
   background-color: #1f2937;
-  color: #f9faf8;
-  font-size: 18px;
   height: 100px;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
